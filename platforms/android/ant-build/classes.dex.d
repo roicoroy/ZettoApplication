@@ -1,0 +1,22 @@
+/Users/roicoroy/App/platforms/android/ant-build/classes.dex : \
+/Users/roicoroy/App/platforms/android/ant-build/classes/com/phonegap/plugins/barcodescanner/BarcodeScanner.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/BuildConfig.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R$array.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R$attr.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R$color.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R$dimen.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R$drawable.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R$id.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R$layout.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R$menu.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R$raw.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R$string.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R$xml.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/R.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/net/therewego/Zetto/Zetto.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/org/apache/cordova/camera/CameraLauncher.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/org/apache/cordova/camera/ExifHelper.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/org/apache/cordova/camera/FileHelper.class \
+/Users/roicoroy/App/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
+/Users/roicoroy/App/platforms/android/ant-build/dexedLibs/classes-44fbfb420a1fd3837d1a9987e1dfd90c.jar \
+/Users/roicoroy/App/platforms/android/ant-build/dexedLibs/com.google.zxing.client.android.captureactivity-eae2db6909a8e3633e8ae165c3ddef6a.jar \

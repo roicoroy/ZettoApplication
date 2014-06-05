@@ -1,0 +1,71 @@
+<!-- Device information code extravted from: MDS Applaud Eclipse Plug-in examples folder, copyrikght free for non-commercial use - Thanks! -->
+<!DOCTYPE html> 
+	<html> 
+	<head>
+    <meta name="viewport" content="user-scalable=no,initial-scale = 1.0,maximum-scale = 1.0">
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton/base.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton/skeleton.css">
+	<title>Zetto</title>	
+	</head>
+	
+	<body onload="init();"> 
+	    	<div class="container .twelve.columns" ><!--****STARTS CONTENT ****-->
+			<div id="header">
+	        	<h1>Zetto</h1>
+		     	<p>Napier - 2014</p><hr/>
+	     	</div>
+				<div class="api-div" id="api-device">
+				<h1>Device API</h1>
+			
+       			<table class="box_device" id="deviceinfo">
+  					<tr>
+   					 	<th>Device</th>
+   					 	<p>This is the application developed for 
+   					 	Mobile App Development module at
+   					 	Edinburgh Napier University - Ricardo Bento - 40122365
+						This is the prototype for Zetto Magazine App, the first draft of a bigger project, 
+						here I present the client with the basic layout, 
+						camera and QR Code Scanner functionality.</p>
+   					 	<th class="alt">Value</th>
+  					</tr>
+  					<tr>
+    					<td>Platform:</td>
+   					 	<td class="alt"><strong id="platform">&nbsp;</strong></td>
+  					</tr>
+  					<tr>
+    					<td>PhoneGap:</td>
+   					 	<td class="alt"><strong id="pgversion">&nbsp;</strong></td>
+  					</tr>
+  					<tr>
+    					<td>UUID:</td>
+   					 	<td class="alt"><strong id="uuid">&nbsp;</strong></td>
+  					</tr>
+  					<tr>
+    					<td>OS Version:</td>
+   					 	<td class="alt"><strong id="version">&nbsp;</strong></td>
+  					</tr>
+  					<tr>
+   					 	<th>Screen</th>
+   					 	<th class="alt">Value</th>
+  					</tr>
+  					<tr>
+    					<td>Width:</td>
+    					<td class="alt"><strong id="width">&nbsp;</strong></td>
+  					</tr>
+   					<tr>
+    					<td>Height:</td>
+    					<td class="alt"><strong id="height">&nbsp;</strong></td>
+  					</tr>
+   				</table>					
+				</div>
+				<div id="navigation">
+					<a href="camera.html" class="full-width button" >Camera</a>
+					<a href="scann.html" class="full-width button" >Scann</a>
+				</div>
+		</div><!--****FINISHES CONTENT ****-->
+		 	<script type="text/javascript" src="phonegap.js"></script>
+			<script type="text/javascript" src="apis/device.js"></script>
+	</body>
+</html>

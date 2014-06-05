@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+	<html> 
+	<head> 
+    <meta name="viewport" content="user-scalable=no,initial-scale = 1.0,maximum-scale = 1.0">
+	<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton/base.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton/skeleton.css">
+	<title>Camera</title>	
+	</head>	
+	<body> 
+	  <div id="container .twelve.columns" >
+		 <div id="header">
+        	<h1>Zetto</h1>
+	     	<p>Napier - 2014</p>
+	     </div><hr/>
+		      <!--****STARTS CONTENT ****-->
+				<h1>Camera API</h1>
+				<p>Here we have a sample of a photo camera app, 
+				using an API from Apache Cordova 
+				framework in order to activate device’s native functionality. 
+				The user may access it’s own library and album folders. 
+				The Caputure Edit button makes a smaller photo that could be 
+				used to edit in another application while the Capture button will get a 
+				photo with better quality but higher size.
+				I intend to develop a Slider where he photos captured could be 
+				displayed and posted using social network or at the official Zetto website.</p> 
+		  <!-- Code from http://docs.phonegap.com/en/3.3.0/cordova_camera_camera.md.html#Camera  -->
+		    <button class="full-width" id=scannerBt" onclick="capturePhoto();">Capture</button>
+		    <button class="full-width" id=scannerBt" onclick="capturePhotoEdit();">Capture Edit</button>
+		    <button class="full-width" id=scannerBt" onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Album</button>
+		    <button class="full-width" id=scannerBt" onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Library</button>
+		   			<br/><br/><br/>
+		    <img class="scale-with-grid" style="display:none;" id="smallImage" src="" />
+		    <img class="scale-with-grid" style="display:none;" id="largeImage" src="" />
+		    <script type="text/javascript" src="apis/camera.js"></script>
+		   			<br/><br/><br/>
+		  <!-- Thanks Phonegap!  -->
+		  	<div id="navigation">
+				<a href="scann.html" class="full-width button" >Scann</a>
+				<a href="index.html" class="full-width button" >Home</a>
+			</div>
+		</div>
+      	<!--****FINISHES CONTENT ****-->
+  	<script type="text/javascript" src="phonegap.js"></script>
+  	<script src="js/rainbow-custom.min.js"></script>
+	<script type="text/javascript" src="apis/camera.js"></script>
+	</body>
+</html>
